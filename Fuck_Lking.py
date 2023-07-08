@@ -474,8 +474,8 @@ def rd(ids,passlist,fbcr):
 		time.sleep(20)
 	except Exception as e:
 		pass
-Setup()
-try:apv()
+
+try:main()
 except requests.exceptions.ConnectionError:
 	print('\n No internet connection ...')
 except Exception as e:pass
